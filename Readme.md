@@ -1,8 +1,8 @@
 # Dataset
-Dataset can be found here: https://drive.google.com/drive/folders/1-FzZhQO9oHIT9SNOWYoKsuz7fe447vtR
+Dataset can be found [here](https://drive.google.com/drive/folders/1-FzZhQO9oHIT9SNOWYoKsuz7fe447vtR).
 
 # Weights
-Weights of all experiments can be found [here]().
+Weights of all experiments can be found [here](https://drive.google.com/open?id=121KBUcFxO0r6WxHHJkAUBCcADNnXgdi4).
 
 # Experiment Details
 In all experiments, early stopping was used as a regularization technique to prevent overfitting to train data.
