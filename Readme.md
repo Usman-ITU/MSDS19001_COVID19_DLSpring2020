@@ -1,12 +1,10 @@
-<center>
-    <h1>
-        Assignment 5
-    </h1>
-    <h4>
-        Usman Anwar - MSDS19001
-    </h4>
-</center>
+# Dataset
+Dataset can be found here: https://drive.google.com/drive/folders/1-FzZhQO9oHIT9SNOWYoKsuz7fe447vtR
 
+# Weights
+Weights of all experiments can be found [here]().
+
+# Experiment Details
 In all experiments, early stopping was used as a regularization technique to prevent overfitting to train data.
 
 ## VGG-16
@@ -19,9 +17,9 @@ Last FC layer was removed, all conv layers weights were freezed and retraining w
 
 **Training Plots**
 
-![image-20200424210625724](/home/usman/.config/Typora/typora-user-images/image-20200424210625724.png)
+![image-20200424210625724](/images/image-20200424210625724.png)
 
-![image-20200424210607589](/home/usman/.config/Typora/typora-user-images/image-20200424210607589.png)
+![image-20200424210607589](/images/image-20200424210607589.png)
 
 **Final Test Accuracy**
 
@@ -49,11 +47,11 @@ Test:
 
 **Well Classified Images**
 
-![image-20200424210755129](/home/usman/.config/Typora/typora-user-images/image-20200424210755129.png)
+![image-20200424210755129](/images/image-20200424210755129.png)
 
 **Badly Classified Images**
 
-![image-20200424210821044](/home/usman/.config/Typora/typora-user-images/image-20200424210821044.png)
+![image-20200424210821044](/images/image-20200424210821044.png)
 
 ### Task 2(a)
 
@@ -61,9 +59,9 @@ FC Layer + last conv layer were retrained with lr=0.001 with Adam optimizer, bat
 
 **Training Plots**
 
-![image-20200424221838114](/home/usman/.config/Typora/typora-user-images/image-20200424221838114.png)
+![image-20200424221838114](/images/image-20200424221838114.png)
 
-![image-20200424221910243](/home/usman/.config/Typora/typora-user-images/image-20200424221910243.png)
+![image-20200424221910243](/images/image-20200424221910243.png)
 
 **Final Test Accuracy**
 
@@ -91,11 +89,11 @@ Test:
 
 **Well Classified Images**
 
-![image-20200424223727479](/home/usman/.config/Typora/typora-user-images/image-20200424223727479.png)
+![image-20200424223727479](/images/image-20200424223727479.png)
 
 **Badly Classified Images**
 
-![image-20200424223753481](/home/usman/.config/Typora/typora-user-images/image-20200424223753481.png)
+![image-20200424223753481](/images/image-20200424223753481.png)
 
 ### Task 2(b)
 
@@ -103,9 +101,9 @@ Whole network was retrained with Adam optimizer, lr=0.001. batch size 8 for 10 e
 
 **Training Plots**
 
-![image-20200425001605794](/home/usman/.config/Typora/typora-user-images/image-20200425001605794.png)
+![image-20200425001605794](/images/image-20200425001605794.png)
 
-![image-20200425001628858](/home/usman/.config/Typora/typora-user-images/image-20200425001628858.png)
+![image-20200425001628858](/images/image-20200425001628858.png)
 
 **Final Test Accuracy**
 
@@ -133,11 +131,11 @@ Test:
 
 **Well Classified Images**
 
-![image-20200425002604175](/home/usman/.config/Typora/typora-user-images/image-20200425002604175.png)
+![image-20200425002604175](/images/image-20200425002604175.png)
 
 **Badly Classified Images**
 
-![image-20200425002625676](/home/usman/.config/Typora/typora-user-images/image-20200425002625676.png)
+![image-20200425002625676](/images/image-20200425002625676.png)
 
 ## ResNet 18
 
@@ -147,9 +145,9 @@ Last layer was retrained with Adam optimizer, lr=0.001, batch size 8 for 10 epoc
 
 **Training Plots**
 
-![image-20200424064956334](/home/usman/.config/Typora/typora-user-images/image-20200424064956334.png)
+![image-20200424064956334](/images/image-20200424064956334.png)
 
-![image-20200424065018906](/home/usman/.config/Typora/typora-user-images/image-20200424065018906.png)
+![image-20200424065018906](/images/image-20200424065018906.png)
 
 **Final Test Accuracy**
 
@@ -177,11 +175,11 @@ Test:
 
 **Well Classified Images**
 
-![image-20200424120011128](/home/usman/.config/Typora/typora-user-images/image-20200424120011128.png)
+![image-20200424120011128](/images/image-20200424120011128.png)
 
 **Badly Classified Images**
 
-![image-20200424185500706](/home/usman/.config/Typora/typora-user-images/image-20200424185500706.png)
+![image-20200424185500706](/images/image-20200424185500706.png)
 
 ### Task 2(a)
 
@@ -189,9 +187,9 @@ Last layer + last convolutional block were retrained with Adam optimizer, lr=0.0
 
 **Training Plots**
 
-![image-20200424135654111](/home/usman/.config/Typora/typora-user-images/image-20200424135654111.png)
+![image-20200424135654111](/images/image-20200424135654111.png)
 
-![image-20200424135720269](/home/usman/.config/Typora/typora-user-images/image-20200424135720269.png)
+![image-20200424135720269](/images/image-20200424135720269.png)
 
 **Final Test Accuracy**
 
@@ -220,11 +218,11 @@ Test:
 
 **Well Classified Images**
 
-![image-20200424135852022](/home/usman/.config/Typora/typora-user-images/image-20200424135852022.png)
+![image-20200424135852022](/images/image-20200424135852022.png)
 
 **Badly Classified Images**
 
-![image-20200424185409496](/home/usman/.config/Typora/typora-user-images/image-20200424185409496.png)
+![image-20200424185409496](/images/image-20200424185409496.png)
 
 ### Task 2(b)
 
@@ -232,9 +230,9 @@ Whole network was retrained for about 10 epochs with initialization from previou
 
 **Training Plots**
 
-![image-20200424183802636](/home/usman/.config/Typora/typora-user-images/image-20200424183802636.png)
+![image-20200424183802636](/images/image-20200424183802636.png)
 
-![image-20200424183832785](/home/usman/.config/Typora/typora-user-images/image-20200424183832785.png)
+![image-20200424183832785](/images/image-20200424183832785.png)
 
 **Final Test Accuracy**
 
@@ -263,11 +261,11 @@ Test:
 
 **Well Classified Images**
 
-![image-20200424185115665](/home/usman/.config/Typora/typora-user-images/image-20200424185115665.png)
+![image-20200424185115665](/images/image-20200424185115665.png)
 
 **Badly Classified Images**
 
-![image-20200424185244197](/home/usman/.config/Typora/typora-user-images/image-20200424185244197.png)
+![image-20200424185244197](/images/image-20200424185244197.png)
 
 ## Analysis
 
