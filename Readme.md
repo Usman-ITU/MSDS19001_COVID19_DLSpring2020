@@ -23,11 +23,11 @@ Last FC layer was removed, all conv layers weights were freezed and retraining w
 
 **Final Test Accuracy**
 
-$92.96$
+92.96
 
 **F1 Score On Test Set**
 
-$0.9405$
+0.9405
 
 **Confusion Matrix**
 
@@ -65,11 +65,11 @@ FC Layer + last conv layer were retrained with lr=0.001 with Adam optimizer, bat
 
 **Final Test Accuracy**
 
-$94.79$
+94.79
 
 **F1 Score On Test Set**
 
-$0.9547$
+0.9547
 
 **Confusion Matrix**
 
@@ -107,11 +107,11 @@ Whole network was retrained with Adam optimizer, lr=0.001. batch size 8 for 10 e
 
 **Final Test Accuracy**
 
-$96.48$
+96.48
 
 **F1 Score On Test Set**
 
-$0.9695$
+0.9695
 
 **Confusion Matrix**
 
@@ -151,11 +151,11 @@ Last layer was retrained with Adam optimizer, lr=0.001, batch size 8 for 10 epoc
 
 **Final Test Accuracy**
 
-$91.42%$
+91.42%
 
 **F1 Score On Test Set**
 
-$0.9246$
+0.9246
 
 **Confusion Matrix**
 
@@ -193,11 +193,11 @@ Last layer + last convolutional block were retrained with Adam optimizer, lr=0.0
 
 **Final Test Accuracy**
 
-$94.72$
+94.72
 
 **F1 Score On Test Set**
 
-$0.954$
+0.954
 
 **Confusion Matrix**
 
@@ -236,11 +236,11 @@ Whole network was retrained for about 10 epochs with initialization from previou
 
 **Final Test Accuracy**
 
-$94.86$
+94.86
 
 **F1 Score On Test Set**
 
-$0.9566$
+0.9566
 
 **Confusion Matrix**
 
@@ -271,11 +271,11 @@ Test:
 
 Following table lists test accuracy. 
 
-| Training Extent                  | VGG     | ResNet  |
-| -------------------------------- | ------- | ------- |
-| FC Layer                         | $92.96$ | $91.42$ |
-| FC Layer + Last Conv Layer/Block | $94.79$ | $94.72$ |
-| Whole Network                    | $96.48$ | $94.86$ |
+| Training Extent                  | VGG   | ResNet|
+| -------------------------------- | ----- | ------|
+| FC Layer                         | 92.96 | 91.42 |
+| FC Layer + Last Conv Layer/Block | 94.79 | 94.72 |
+| Whole Network                    | 96.48 | 94.86 |
 
 1. For both VGG and ResNet whole network retraining achieved highest test accuracy; and retraining only FC layer achieved >90% accuracy but greater training extent improved on this accuracy. This is presumably because ImageNet is a dataset of natural images, however, medical images are not natural images, hence, allowing the network to adjust for this change gives best performance.
 2. Further, as an experiment, for VGG all three times network was initialized from imageNet weights and for ResNet we used weights from previous layers. However, we did not observe any discernable effects and training of both networks largely progressed in the same way.
