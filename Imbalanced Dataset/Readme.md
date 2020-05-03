@@ -30,7 +30,7 @@ In all experiments, we finetune pretained VGG net end to end by using SGD with m
 
 **Training Plots**
 
-![image-20200503042413567](/home/usman/.config/Typora/typora-user-images/image-20200503042413567.png)
+![image-20200503042413567](/images/image-20200503042413567.png)
 
 **Testing Stats**
 
@@ -70,7 +70,7 @@ Confusion Matrix  [[[600   0]
 
 SGD was used with momentum 0.9 and lr=0.001
 
-![image-20200503203330305](/home/usman/.config/Typora/typora-user-images/image-20200503203330305.png)
+![image-20200503203330305](/images/image-20200503203330305.png)
 
 **Testing Stats**
 
@@ -116,7 +116,7 @@ Adam optimizer with batch size of 8 and lr=0.001
 
 **Training Plots**
 
-![image-20200503183953955](/home/usman/.config/Typora/typora-user-images/image-20200503183953955.png)
+![image-20200503183953955](/images/image-20200503183953955.png)
 
 **Testing Stats**
 
@@ -166,7 +166,7 @@ Last layer was retrained with Adam optimizer, lr=0.001, batch size 8 for 10 epoc
 
 **Training Plots**
 
-![image-20200503014934945](/home/usman/.config/Typora/typora-user-images/image-20200503014934945.png)
+![image-20200503014934945](/images/image-20200503014934945.png)
 
 **Testing Stats**
 
@@ -203,7 +203,7 @@ Confusion Matrix  [[[5836  164]
 
 **(b) Without Class Balancing**
 
-![image-20200503032335725](/home/usman/.config/Typora/typora-user-images/image-20200503032335725.png)
+![image-20200503032335725](/images/image-20200503032335725.png)
 
 **Testing Stats**
 
@@ -247,7 +247,7 @@ Confusion Matrix
 
 **Training Plots**
 
-![image-20200503004309236](/home/usman/.config/Typora/typora-user-images/image-20200503004309236.png)
+![image-20200503004309236](/images/image-20200503004309236.png)
 
 **Test Stats**
 
@@ -290,7 +290,7 @@ Confusion Matrix
 
 **Training Plots**
 
-![image-20200503215656361](/home/usman/.config/Typora/typora-user-images/image-20200503215656361.png) 
+![image-20200503215656361](/images/image-20200503215656361.png) 
 
 ```bash
 *************** Training Data ***************
@@ -334,7 +334,7 @@ Following table lists recall and precision for Covid-19 class on validation set 
 | -------------------- | --------------- | ----------------------------------- | ---------------------------------- |
 | Binary Cross Entropy | No              | Precision: 1.0<br />Recall: 0.428   | Precision: 0.99 <br />Recall: 0.77 |
 | Binary Cross Entropy | Yes             | Precision: 0.998<br />Recall: 0.745 | Precision: 0.97<br />Recall: 0.97  |
-| Focal Loss           | No              | Precision: 1.0 <br />Recall: 0      | -                                  |
+| Focal Loss           | No              | Precision: 1.0 <br />Recall: 0      | N/A                                |
 | Focal Loss           | Yes             | N/A                                 | Precision: 0.97<br />Recall: 0.82  |
 
 1. Adam optimizer consistently did worse on this task than SGD optimizer.
